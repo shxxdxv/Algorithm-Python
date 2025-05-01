@@ -14,5 +14,5 @@ def solution(ability, number):
         heapq.heappush(queue,x_y)
 
     answer = sum(queue)
-    print(heapq.heappop())
+
     return answer
